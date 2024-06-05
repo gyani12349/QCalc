@@ -28,11 +28,11 @@ public class ScientificCalculatorTest {
 
         //Arrange
 
-        double expectedResult = 4;
+        double expectedResult = 9;
 
         //Act
 
-        scientificCalculator.square(2);
+        scientificCalculator.square(3);
 
         double actualResult = scientificCalculator.getResult();
 
